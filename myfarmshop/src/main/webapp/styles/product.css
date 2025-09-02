@@ -1,0 +1,187 @@
+.div1 {
+          margin: 10px 0; /* 여백을 줄입니다 */
+    padding: 20px; /* 패딩을 줄입니다 */
+    display: flex;
+    color: white;
+    background-color: #4CAF50;
+    height: 50px; /* 높이를 작게 설정합니다 */
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+      }
+.header-container {
+          display: flex;
+          align-items: center;
+          justify-content: space-between; /* 수정: 공간을 양쪽에 균등하게 분배 */
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.header-container .logo img {
+    width: 100px; /* 원하는 이미지 크기로 설정 */
+         height: auto;
+     }
+
+.header-container .title {
+    flex-grow: 1;
+    text-align: center;
+}
+  
+.cart-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+     
+.cart-button:hover {
+    background-color: #45a049;
+}
+
+.main{
+	display: flex;
+	position: absolute;
+	
+}
+     
+.wrapper{
+	display: grid;
+	grid-template-columns: 500px 500px;
+	grid-template-rows: 500px;
+	margin: 30px;
+	margin-left: 400px;
+}
+
+.wrapper .wrap-right{
+	margin: 0 auto;
+}
+
+.wrapper .description{
+	border-top: 2px solid lightgray;
+    border-radius: 5px;
+    width: 800px;
+	height: 400px;
+	margin: 20px;
+	margin-bottom: 40px;
+
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+     
+.wrapper .description .middle{
+	width: 800px;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+
+
+    
+.wrapper .wrap-right button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ .wrapper .wrap-right button:hover {
+     background-color: #45a049;
+ }
+ 
+ .description button{
+ 	padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+     
+.other{
+	height:500px;
+	margin-left: 200px;
+	text-align: center;
+}
+     
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: column;
+  	align-items: center;
+ }
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    margin-left:0px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #f9f9f9;
+    
+}
+
+.card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 1em;
+    color: #333;
+}
+     
+     
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+header .logo h1 {
+    margin: 0;
+    color: #333;
+    text-decoration: none;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .search-bar input {
+    padding: 5px;
+    width: 200px;
+}
+
+header .user-cart a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.categories, .smart-farm {
+    padding: 20px;
+}
+
+.categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categories ul li {
+    margin: 10px 0;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* 로그인 및 회원가입 폼 스타일 */
+.login-form, .register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.login-form h2, .register-form h2 {
+    text-align: center;
+}
+
+.login-form form, .register-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label, .register-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input, .register-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.login-form button, .register-form button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover, .register-form button:hover {
+    background-color: darkblue;
+}
+
+/* 카드 레이아웃 스타일 */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card p {
+    color: #888;
+    margin: 10px 0;
+}
+
+.card .price {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+
+/* 카운트다운 스타일 */
+.countdown {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: red;
+}
